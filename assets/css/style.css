@@ -147,7 +147,17 @@ margin-bottom: 1rem;
     font-size: 1rem;
 }
 
+.lista__link a:hover{
+    color: var(--cinza-secundario);
+}
+
 .rodape__texto {
     font-size: 0.875rem;
     color: var(--cinza-secundario);
+}
+
+.container__botao:hover {
+    border: 1.5px solid var(--botao-azul);
+    background-color: transparent;
+    color: var(--botao-azul);
 }
